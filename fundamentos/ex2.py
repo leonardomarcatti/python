@@ -1,0 +1,18 @@
+value = input('Digite algo:')
+
+print(f'Você digitou: {value}')
+print('O tipo é: ', type(value))
+print(f'Tem {len(value)} caracteres')
+print(f'Alpha numerico: {value.isalnum()}')
+print(f'Alpha: {value.isalpha()}')
+print(f'ASCII: {value.isascii()}')
+print(f'Decimal: {value.isdecimal()}')
+print(f'Dígito: {value.isdigit()}')
+print(f'Lower: {value.islower()}')
+print(f'Numeric: {value.isnumeric()}')
+print(f'Upper: {value.isupper()}')
+print(f'identifier: {value.isidentifier()}')
+print(f'Title: {value.istitle()}')
+print(f'Space: {value.isspace()}')
+print(f'Printable: {value.isprintable()}')
+

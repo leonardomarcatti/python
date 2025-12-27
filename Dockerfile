@@ -4,4 +4,6 @@ WORKDIR /app
 
 COPY . .
 
+ENV TZ="America/Sao_Paulo"
+
 CMD ["tail", "-f", "/dev/null"]

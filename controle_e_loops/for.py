@@ -1,23 +1,35 @@
-for i in range(1,3):
-   print(f'O valor é: {i}')
+forOne: object = []
+forTwo: object = []
 
-for i in range(3,1,-1):
-   print(f'O valor é: {i}')
+for i in range(1,10):
+   forOne.append(i)
 
-print('Start')
+print(forOne)
 
-for num in range(5):
-   
+print('='*20, '\n')
+
+for i in range(10,1,-1):
+   forTwo.append(i)
+
+print(forTwo)
+
+print('='*20, '\n')
+
+for num in range(5):   
    if num == 2:
       break
-   
    print(num)
 
 
-print('End')
+print('='*20, '\n')
 
-for c in 'Curso de Python':
-   if c in 'yrh': # Equivalente a c == 'y' || c == 'r' || c == 'h'
+phrase = 'Curso de Python'
+short_phrase: str = ''
+
+for element in phrase:
+   if element in 'yrh': # Equivalente a c == 'y' || c == 'r' || c == 'h'
       continue
-   print(c)
+   short_phrase += element
+   
+print(short_phrase)
    

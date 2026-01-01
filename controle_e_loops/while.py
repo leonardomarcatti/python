@@ -2,20 +2,15 @@ import sys
 
 try:
    n1 = int(input('Digite o primeiro número: '))
-   n2  = int(input('Digite o primeiro número: '))
+   n2  = int(input('Digite o segundo número: '))
 except ValueError:
-   print('Digite um número')
+   print('Digite apenas números')
    sys.exit('Encerrado')
 
 while n1 != 0 and n2 != 0:
-   try:
-      n1 = int(input('Digite o primeiro número: '))
-      n2  = int(input('Digite o primeiro número: '))
-   except ValueError:
-      print('Digite um número')
-
    soma = n1 + n2
    print(f'{n1} + {n2} = {soma}')
+   n1 = 0
 
 '''
 x: int = 0

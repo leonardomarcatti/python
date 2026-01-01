@@ -1,5 +1,4 @@
 import os
-import shutil
 
 # Retorna diretório atual
 print(os.getcwd())

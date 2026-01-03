@@ -28,6 +28,6 @@
    \33[m]
    \033[estiilo; texto; fundom]
 '''
-print('\33[0;31mTeste de cor\33[m')
+print('\33[31mTeste de cor\33[0m')
 print('\33[0;37mTeste de cor\33[m')
 

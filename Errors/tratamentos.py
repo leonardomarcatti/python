@@ -1,14 +1,14 @@
 import math
 import sys, os
 
-print('='*100)
-print('Digite um número para calcular a raíz quadrada ou 0 para sair'.center(100))
-print('='*100)
+print('='*50)
+print('CALCULADORA'.center(50))
+print('='*50)
 
 def getInputs():
    try:
       print('Escolha uma operação.')
-      print('A para adição\nS para subtração\nM para multiplicação\nD para divisão\nP para potência\nR para raíz quadrada\nDigite outra coisa para sair do programa')
+      print('\33[31mA para ADIÇÃO\33[m\n\33[32mS para SUBTRAÇÃO\33[0m\n\33[33mM para MULTIPLICAÇÃO\33[0m\n\33[34mD para DIVISÃO\33[0m\n\33[35mP para POTÊNCIA\33[0m\n\33[36mR para RAÍZ QUADRADA\33[0m\n\33[37mDigite outra coisa para sair do programa\33[0m')
       numbers: list[int] = []
       operation:str = input('Insira a operação: ').strip().lower()
 
